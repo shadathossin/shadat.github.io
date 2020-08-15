@@ -1,0 +1,24 @@
+body {
+  overflow: hidden;
+}
+p {
+  font-family: "Sriracha", cursive;
+  font-size: 20px;
+  color: rgb(100, 98, 98);
+}
+.triangle-down-row::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid rgb(80, 94, 218);
+}
+.triangle-down-row::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid rgb(80, 94, 218);
+}
